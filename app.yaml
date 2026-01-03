@@ -1,0 +1,18 @@
+name: CRW
+type: gradio-space
+sdk: docker
+
+metadata:
+  space_id: Chris4K/CRW
+  original_url: https://huggingface.co/spaces/Chris4K/CRW
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
