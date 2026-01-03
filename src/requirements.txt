@@ -1,0 +1,9 @@
+langchain
+langchain-community
+crewai
+crewai[tools]
+
+gradio>=4.0.0
+huggingface_hub
+uvicorn
+transformers>=4.35.0
